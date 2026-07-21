@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pep_reactapp</title>
     <script>
-      // Redirect Go Live (Live Server) requests to the compiled production build automatically
-      if (window.location.port && !window.location.port.startsWith('517')) {
+      // Redirect Go Live (Live Server) requests to the compiled production build automatically, except if already in dist
+      if (window.location.port && !window.location.port.startsWith('517') && !window.location.pathname.includes('/dist/')) {
         window.location.href = './dist/index.html';
       }
     </script>
