@@ -8,7 +8,7 @@ const products = [
     category: 'Food',
     price: 12.99,
     rating: 4.5,
-    image: '/food.png',
+    image: './food.png',
     description: 'Juicy gourmet burger with fresh veggies and sesame bun.'
   },
   {
@@ -17,7 +17,7 @@ const products = [
     category: 'Dairy',
     price: 2.49,
     rating: 4.8,
-    image: '/milk.png',
+    image: './milk.png',
     description: 'Pure and fresh whole milk, farm sourced daily.'
   },
   {
@@ -26,7 +26,7 @@ const products = [
     category: 'Groceries',
     price: 5.99,
     rating: 4.6,
-    image: '/rice.png',
+    image: './rice.png',
     description: 'Premium long-grain basmati rice, aromatic and fluffy.'
   },
   {
@@ -35,7 +35,7 @@ const products = [
     category: 'Dairy',
     price: 3.29,
     rating: 4.7,
-    image: '/butter.png',
+    image: './butter.png',
     description: 'Rich and creamy butter, perfect for cooking and baking.'
   },
   {
@@ -44,7 +44,7 @@ const products = [
     category: 'Clothes',
     price: 39.99,
     rating: 4.4,
-    image: '/clothes.png',
+    image: './clothes.png',
     description: 'Comfortable and stylish casual T-shirt and jeans set.'
   },
   {
@@ -53,7 +53,7 @@ const products = [
     category: 'Accessories',
     price: 199.99,
     rating: 4.9,
-    image: '/watch.png',
+    image: './watch.png',
     description: 'Elegant stainless steel luxury wristwatch for any occasion.'
   },
   {
@@ -62,7 +62,7 @@ const products = [
     category: 'Toys',
     price: 24.99,
     rating: 4.6,
-    image: '/toy.png',
+    image: './toy.png',
     description: 'Fun colorful building blocks and toy cars for kids.'
   },
   {
@@ -71,7 +71,7 @@ const products = [
     category: 'Footwear',
     price: 59.99,
     rating: 4.7,
-    image: '/shoes.png',
+    image: './shoes.png',
     description: 'Trendy and comfortable everyday white sneakers.'
   },
   {
@@ -80,7 +80,7 @@ const products = [
     category: 'Food',
     price: 15.99,
     rating: 4.9,
-    image: '/cake.png',
+    image: './cake.png',
     description: 'Decadent double-layered chocolate fudge cake, fresh baked.'
   },
   {
@@ -89,7 +89,7 @@ const products = [
     category: 'Dairy',
     price: 4.49,
     rating: 4.7,
-    image: '/cheese.png',
+    image: './cheese.png',
     description: 'Aged sharp yellow cheddar cheese blocks, rich in flavor.'
   },
   {
@@ -98,7 +98,7 @@ const products = [
     category: 'Groceries',
     price: 14.99,
     rating: 4.8,
-    image: '/oil.png',
+    image: './oil.png',
     description: 'Premium cold pressed extra virgin olive oil, 100% natural.'
   },
   {
@@ -107,7 +107,7 @@ const products = [
     category: 'Clothes',
     price: 89.99,
     rating: 4.6,
-    image: '/jacket.png',
+    image: './jacket.png',
     description: 'Timeless black leather biker jacket with premium steel zippers.'
   },
   {
@@ -116,7 +116,7 @@ const products = [
     category: 'Accessories',
     price: 29.99,
     rating: 4.5,
-    image: '/sunglasses.png',
+    image: './sunglasses.png',
     description: 'Vintage polarized sunglasses offering full UV protection.'
   },
   {
@@ -125,7 +125,7 @@ const products = [
     category: 'Toys',
     price: 19.99,
     rating: 4.4,
-    image: '/toy_figure.png',
+    image: './toy_figure.png',
     description: 'Collectible poseable action figure with interchangeable gear.'
   },
   {
@@ -134,7 +134,7 @@ const products = [
     category: 'Footwear',
     price: 79.99,
     rating: 4.7,
-    image: '/running_shoes.png',
+    image: './running_shoes.png',
     description: 'Lightweight breathable sports sneakers with cushioned sole.'
   },
   {
@@ -143,7 +143,7 @@ const products = [
     category: 'Food',
     price: 3.49,
     rating: 4.8,
-    image: '/juice.png',
+    image: './juice.png',
     description: '100% organic cold-pressed apple juice with no added sugar.'
   },
   {
@@ -152,7 +152,7 @@ const products = [
     category: 'Groceries',
     price: 4.99,
     rating: 4.8,
-    image: '/eggs.png',
+    image: './eggs.png',
     description: 'Dozen farm fresh free-range grade-A large brown eggs.'
   },
   {
@@ -161,7 +161,7 @@ const products = [
     category: 'Accessories',
     price: 149.99,
     rating: 4.9,
-    image: '/smartwatch.png',
+    image: './smartwatch.png',
     description: 'Advanced sports smartwatch tracking workouts, steps, and sleep.'
   },
   {
@@ -170,7 +170,7 @@ const products = [
     category: 'Accessories',
     price: 59.99,
     rating: 4.6,
-    image: '/headphones.png',
+    image: './headphones.png',
     description: 'Premium wireless Bluetooth over-ear headphones with noise cancelling.'
   },
   {
@@ -179,7 +179,7 @@ const products = [
     category: 'Toys',
     price: 19.99,
     rating: 4.7,
-    image: '/soccer.png',
+    image: './soccer.png',
     description: 'Standard size-5 professional match soccer ball, durable design.'
   }
 ];
