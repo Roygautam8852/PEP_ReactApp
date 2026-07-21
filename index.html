@@ -8,7 +8,7 @@
     <script>
       // Redirect Go Live (Live Server) requests to the compiled production build automatically, except if already in dist
       if (window.location.port && !window.location.port.startsWith('517') && !window.location.pathname.includes('/dist/')) {
-        window.location.href = './dist/index.html';
+        window.location.pathname = '/dist/index.html';
       }
     </script>
   </head>
